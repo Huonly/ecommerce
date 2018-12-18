@@ -245,7 +245,7 @@ body {
     position: relative;
     top: 10px;
     left: 0;
-    margin: 0 auto;
+    margin: 0 auto 30px;
 }
 
 #banner ul, #banner li, #banner h2, #banner p, #banner .banner-bg {
@@ -292,4 +292,57 @@ body {
     left: 0;
     bottom: 0;
     z-index: 2;
+}
+
+#content {
+    width: 942px;
+    margin: 0 auto;
+}
+
+#sidebar {
+    width: 210px;
+    float: left;
+}
+
+.browse {
+}
+
+.browse h3 {
+    background: url("../img/browse_bg.png") no-repeat;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    line-height: 29px;
+}
+
+.browse_list {
+    background: url("../img/rowse_list_bg.png") repeat-y;
+}
+
+.browse_list ul {
+    background: url("../img/rowse_list_bg.png") no-repeat -210px bottom;
+    padding: 18px 8px 15px;
+}
+
+.browse_list a {
+    display: block;
+    height: 27px;
+    line-height: 27px;
+    border-bottom: 1px solid #ffffff;
+    color: #434343;
+    font-weight: bold;
+    padding-left: 32px;
+    font-size: 12px;
+}
+
+.browse_list a:hover{
+    color: #b20e00;
+    border-bottom: 1px solid #b20e00;
+    background: #fae191;
+}
+
+#wrap {
+    width: 706px;
+    float: right;
 }
