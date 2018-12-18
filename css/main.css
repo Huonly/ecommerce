@@ -1,8 +1,9 @@
-body, div, ul, li, h1, h2, h3, h4, p, span, a,input {
+body, div, ul, li, h1, h2, h3, h4, p, span, a, input {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: Arial;
 }
 
@@ -10,7 +11,7 @@ li {
     list-style: none;
 }
 
-input{
+input {
     border: none;
     outline: none;
 }
@@ -27,80 +28,87 @@ body {
     background: url("../img/top_bg.png") repeat-x;
 }
 
-.clearFix:after{
+.clearFix:after {
     content: '';
     display: block;
     clear: both;
 }
 
-#top{
+#top {
     width: 960px;
     height: 30px;
     margin: 0 auto;
 }
 
-#top .top-nav{
+#top .top-nav {
     width: 478px;
     float: left;
 }
 
-.top-nav ul li{
+.top-nav ul li {
     float: left;
-    padding:0 15px;
+    padding: 0 15px;
     background: url("../img/top_nav.png") no-repeat right center;
 }
-.top-nav ul li:first-child{
+
+.top-nav ul li:first-child {
     padding-left: 0;
 }
-.top-nav ul li:last-child{
+
+.top-nav ul li:last-child {
     padding-right: 0;
     background: none;
 }
 
-.top-nav a{
+.top-nav a {
     color: #c0c0c0;
     font-size: 13px;
     line-height: 30px;
 }
-.top-nav a:hover{
+
+.top-nav a:hover {
     color: #ffffff;
 }
 
-#top .top-r{
+#top .top-r {
     width: 320px;
     float: right;
 }
-.top-r ul li{
+
+.top-r ul li {
     float: left;
     color: #ffffff;
     font-weight: bold;
     font-size: 13px;
     line-height: 30px;
 }
-.top-r .phone{
+
+.top-r .phone {
     text-align: right;
     width: 104px;
     margin-right: 38px;
     background: url("../img/top_phone.png") no-repeat left 3px;
 }
-.top-r .help{
+
+.top-r .help {
     text-align: right;
     width: 96px;
     margin-right: 29px;
     background: url("../img/top_help.png") no-repeat left 5px;
 }
-.top-r .help a{
+
+.top-r .help a {
     font-weight: bold;
     font-size: 13px;
     line-height: 30px;
     color: #ffffff;
 }
 
-.top-r .canada{
+.top-r .canada {
     margin-right: 13px;
 }
 
-#header{
+#header {
     width: 960px;
     height: 100px;
     background: url("../img/header_bg.png") no-repeat center;
@@ -108,21 +116,21 @@ body {
     position: relative;
 }
 
-#header .shopping{
+#header .shopping {
     width: 260px;
     height: 100px;
     float: left;
     background: url("../img/shopping.png") no-repeat 6px 8px;
 }
 
-#header .shopping h3{
+#header .shopping h3 {
     font-size: 20px;
     color: #f7f7f7;
     margin: 32px 0 0 85px;
     font-weight: normal;
 }
 
-#header .shopping p{
+#header .shopping p {
     width: 114px;
     height: 23px;
     background: url("../img/shopping.png") no-repeat 0 -97px;
@@ -135,13 +143,13 @@ body {
     margin-top: 12px;
 }
 
-#header .logo{
+#header .logo {
     width: 228px;
     height: 98px;
     margin: 0 auto;
 }
 
-.search{
+.search {
     position: absolute;
     width: 324px;
     height: 31px;
@@ -149,7 +157,7 @@ body {
     right: 0;
 }
 
-.text{
+.text {
     width: 271px;
     padding-left: 21px;
     height: 31px;
@@ -162,7 +170,7 @@ body {
     top: 0;
 }
 
-.btn{
+.btn {
     width: 42px;
     height: 31px;
     background: url("../img/btn_bg.png") no-repeat;
@@ -171,3 +179,48 @@ body {
     right: 8px;
     cursor: pointer;
 }
+
+#nav {
+    width: 960px;
+    height: 36px;
+    padding-top: 8px;
+    margin: 0 auto;
+}
+
+#nav li {
+    float: left;
+    margin-right: 2px;
+}
+
+#nav a, #nav strong, #nav span {
+    float: left;
+    height: 28px;
+}
+
+#nav a {
+    line-height: 28px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+#nav strong {
+    font-weight: normal;
+}
+
+#nav span {
+    padding: 0 16px;
+}
+
+#nav a:hover, #nav .active a {
+    background: url("../img/nav_bg.png") repeat-x 0 -28px;
+}
+
+#nav a:hover strong, #nav .active strong {
+    background: url("../img/nav_bg.png") no-repeat;
+}
+
+#nav a:hover span, #nav .active span {
+    background: url("../img/nav_bg.png") no-repeat right -56px;
+}
+
+
