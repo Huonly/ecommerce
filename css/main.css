@@ -184,7 +184,7 @@ body {
     width: 960px;
     height: 36px;
     padding-top: 8px;
-    margin: 0 auto;
+    margin: 0 auto 24px;
 }
 
 #nav li {
@@ -223,4 +223,73 @@ body {
     background: url("../img/nav_bg.png") no-repeat right -56px;
 }
 
+#main {
+    width: 1000px;
+    margin: 0 auto;
+    background: url("../img/main_bg.png") repeat-y -1000px 0;
+}
 
+#main-top {
+    background: url("../img/main_bg.png") no-repeat;
+    width: 1000px;
+}
+
+#main-bottom {
+    width: 1000px;
+    background: url("../img/main_bg.png") no-repeat -2000px bottom;
+}
+
+#banner {
+    width: 940px;
+    height: 300px;
+    position: relative;
+    top: 10px;
+    left: 0;
+    margin: 0 auto;
+}
+
+#banner ul, #banner li, #banner h2, #banner p, #banner .banner-bg {
+    position: absolute;
+}
+
+#banner ul {
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#banner li {
+    top: 0;
+    left: 0;
+}
+
+#banner h2 {
+    width: 268px;
+    text-align: center;
+    font-size: 25px;
+    color: #ffc600;
+    font-weight: bold;
+    left: 0;
+    bottom: 9px;
+    z-index: 3;
+}
+
+#banner p {
+    width: 630px;
+    left: 268px;
+    bottom: 8px;
+    z-index: 3;
+    line-height: 16px;
+    font-size: 13px;
+    color: #ffcccc;
+}
+
+#banner .banner-bg {
+    width: 940px;
+    height: 52px;
+    background: #000;
+    opacity: 0.8;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
