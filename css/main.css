@@ -1,4 +1,4 @@
-body, div, ul, li, h1, h2, h3, h4, p, span, a {
+body, div, ul, li, h1, h2, h3, h4, p, span, a,input {
     margin: 0;
     padding: 0;
 }
@@ -8,6 +8,11 @@ body{
 
 li {
     list-style: none;
+}
+
+input{
+    border: none;
+    outline: none;
 }
 
 a {
@@ -95,3 +100,74 @@ body {
     margin-right: 13px;
 }
 
+#header{
+    width: 960px;
+    height: 100px;
+    background: url("../img/header_bg.png") no-repeat center;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header .shopping{
+    width: 260px;
+    height: 100px;
+    float: left;
+    background: url("../img/shopping.png") no-repeat 6px 8px;
+}
+
+#header .shopping h3{
+    font-size: 20px;
+    color: #f7f7f7;
+    margin: 32px 0 0 85px;
+    font-weight: normal;
+}
+
+#header .shopping p{
+    width: 114px;
+    height: 23px;
+    background: url("../img/shopping.png") no-repeat 0 -97px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffc200;
+    line-height: 23px;
+    text-align: center;
+    margin-left: 104px;
+    margin-top: 12px;
+}
+
+#header .logo{
+    width: 228px;
+    height: 98px;
+    margin: 0 auto;
+}
+
+.search{
+    position: absolute;
+    width: 324px;
+    height: 31px;
+    top: 33px;
+    right: 0;
+}
+
+.text{
+    width: 271px;
+    padding-left: 21px;
+    height: 31px;
+    background: url("../img/search_bg.png") no-repeat;
+    font-size: 13px;
+    font-weight: bold;
+    color: #666666;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.btn{
+    width: 42px;
+    height: 31px;
+    background: url("../img/btn_bg.png") no-repeat;
+    position: absolute;
+    top: 0;
+    right: 8px;
+    cursor: pointer;
+}
