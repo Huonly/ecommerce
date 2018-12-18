@@ -158,15 +158,15 @@ body {
 }
 
 .text {
-    width: 271px;
-    padding-left: 21px;
+    width: 230px;
+    padding-left: 20px;
     height: 31px;
     background: url("../img/search_bg.png") no-repeat;
     font-size: 13px;
     font-weight: bold;
     color: #666666;
     position: absolute;
-    left: 0;
+    right: 42px;
     top: 0;
 }
 
@@ -176,7 +176,7 @@ body {
     background: url("../img/btn_bg.png") no-repeat;
     position: absolute;
     top: 0;
-    right: 8px;
+    right: 0;
     cursor: pointer;
 }
 
