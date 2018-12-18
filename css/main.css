@@ -1,11 +1,97 @@
-body,div,ul,li,h1,h2,h3,h4,p,span,a {
+body, div, ul, li, h1, h2, h3, h4, p, span, a {
     margin: 0;
+    padding: 0;
 }
-li{
+body{
+    font-family: Arial;
+}
+
+li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
+a:hover {
+
+}
+
+body {
+    background: url("../img/top_bg.png") repeat-x;
+}
+
+.clearFix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#top{
+    width: 960px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+#top .top-nav{
+    width: 478px;
+    float: left;
+}
+
+.top-nav ul li{
+    float: left;
+    padding:0 15px;
+    background: url("../img/top_nav.png") no-repeat right center;
+}
+.top-nav ul li:first-child{
+    padding-left: 0;
+}
+.top-nav ul li:last-child{
+    padding-right: 0;
+    background: none;
+}
+
+.top-nav a{
+    color: #c0c0c0;
+    font-size: 13px;
+    line-height: 30px;
+}
+.top-nav a:hover{
+    color: #ffffff;
+}
+
+#top .top-r{
+    width: 320px;
+    float: right;
+}
+.top-r ul li{
+    float: left;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+}
+.top-r .phone{
+    text-align: right;
+    width: 104px;
+    margin-right: 38px;
+    background: url("../img/top_phone.png") no-repeat left 3px;
+}
+.top-r .help{
+    text-align: right;
+    width: 96px;
+    margin-right: 29px;
+    background: url("../img/top_help.png") no-repeat left 5px;
+}
+.top-r .help a{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.top-r .canada{
+    margin-right: 13px;
+}
 
