@@ -305,6 +305,7 @@ body {
 }
 
 .browse {
+    margin-bottom: 13px;
 }
 
 .browse h3 {
@@ -336,13 +337,97 @@ body {
     font-size: 12px;
 }
 
-.browse_list a:hover{
+.browse_list a:hover {
     color: #b20e00;
     border-bottom: 1px solid #b20e00;
     background: #fae191;
+}
+
+.join {
+    background: url("../img/join_bg.png") repeat-y -420px 0;
+}
+
+.join-t {
+    background: url("../img/join_bg.png") no-repeat;
+}
+
+.join-b {
+    background: url("../img/join_bg.png") no-repeat -210px bottom;
+}
+
+.join-now {
+    width: 180px;
+    padding-top: 16px;
+    margin: 0 auto;
+}
+
+.join-now P {
+    color: #666666;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+
+.join-now .join-text {
+    width: 175px;
+    height: 25px;
+    border: 1px solid #ffffff;
+    border-top-color: #9c9c9c;
+    border-left-color: #c0c0c0;
+    margin-bottom: 7px;
+}
+
+.join-now .join-btn {
+    width: 88px;
+    height: 25px;
+    background: url("../img/join_btn_bg.png") no-repeat;
+    color: #ffffff;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 45px;
+    margin-bottom: 13px;
+}
+
+.join-list ul {
+    padding: 0 8px;
+    background: url("../img/join_ul.png") no-repeat 10px 10px;
+}
+
+.join-list ul li {
+    border-top: 1px solid #ffffff;
+    font-size: 13px;
+    color: #434343;
+    padding-left: 62px;
+}
+
+.join-list ul .t {
+    height: 27px;
+    padding-top: 18px;
+}
+
+.join-list ul .f {
+    height: 41px;
+    line-height: 16px;
+    padding-top: 7px;
+}
+
+.join-list ul .in {
+    height: 41px;
+    line-height: 16px;
+    padding-top: 9px;
+}
+
+.join-list ul .email {
+    height: 43px;
+    line-height: 15px;
+    padding-top: 7px;
 }
 
 #wrap {
     width: 706px;
     float: right;
 }
+
