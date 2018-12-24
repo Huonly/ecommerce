@@ -297,6 +297,7 @@ body {
 #content {
     width: 942px;
     margin: 0 auto;
+    padding-bottom: 30px;
 }
 
 #sidebar {
@@ -345,6 +346,7 @@ body {
 
 .join {
     background: url("../img/join_bg.png") repeat-y -420px 0;
+    margin-bottom: 33px;
 }
 
 .join-t {
@@ -389,6 +391,7 @@ body {
     font-weight: bold;
     margin-left: 45px;
     margin-bottom: 13px;
+    cursor: pointer;
 }
 
 .join-list ul {
@@ -426,8 +429,258 @@ body {
     padding-top: 7px;
 }
 
+.paypal {
+    margin-left: 18px;
+}
+
 #wrap {
     width: 706px;
     float: right;
 }
+
+.sort {
+    width: 706px;
+    height: 20px;
+    position: relative;
+    margin-bottom: 28px;
+}
+
+.sort h3, .sort ul, .sort p {
+    position: absolute;
+    top: 0;
+}
+
+.sort h3 {
+    left: 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: #747474;
+    font-weight: bold;
+}
+
+.sort ul {
+    left: 48px;
+}
+
+.sort ul li {
+    float: left;
+    position: relative;
+    margin-right: 12px;
+}
+
+.sort ul input {
+    width: 102px;
+    padding-left: 5px;
+    height: 18px;
+    border: 1px solid #cccccc;
+    font-size: 12px;
+    color: #747474;
+}
+
+.sort ul a {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background: url("../img/Sortby_input.png") no-repeat;
+}
+
+.sort ul a:hover {
+
+}
+
+.sort .opation {
+    width: 107px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    border: 1px solid #cccccc;
+    display: none;
+}
+
+.sort .opation li {
+    width: 102px;
+    height: 20px;
+    line-height: 20px;
+    color: #747474;
+    font-size: 12px;
+    padding-left: 5px;
+    background: #cccccc;
+}
+
+.sort .opation li:hover {
+    background: #666666;
+    color: #ffffff;
+}
+
+.sort p {
+    right: 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: #747474;
+}
+
+.sort p strong {
+    font-weight: bold;
+    color: #999999;
+    margin-right: 10px;
+}
+
+.sort p i {
+    margin: 0 7px;
+}
+
+.sort p span {
+    color: #b20e00;
+}
+
+.our-products h2 {
+    color: #666666;
+    font-size: 18px;
+    padding-bottom: 18px;
+}
+
+.products-wrap {
+    margin-bottom: 48px;
+}
+
+.products-last-wrap {
+    margin-bottom: 46px;
+}
+
+.products-wrap ul li {
+    float: left;
+    width: 154px;
+    height: 154px;
+    margin-right: 27px;
+}
+
+.products-wrap li img {
+    border: 1px solid #c6c6c6;
+}
+
+.products-wrap li img:hover {
+    border: 1px solid #747474;
+}
+
+.products-wrap ul li:last-child {
+    margin-right: 0;
+}
+
+.products-wrap ul h3 {
+    font-size: 15px;
+    color: #666;
+    padding: 2px 0 1px;
+}
+
+.products-wrap ul p {
+    font-size: 13px;
+    color: #333333;
+}
+
+.products-wrap ul span {
+    color: #b20e00;
+}
+
+.page {
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.page a {
+    display: inline-block;
+    padding: 2px 6px;
+    color: #b20e00;
+    font-size: 12px;
+}
+
+.page .next {
+    margin-left: 3px;
+}
+
+.page a.active {
+    background: #b20e00;
+    color: #ffffff;
+}
+
+.featured {
+    width: 706px;
+    height: 248px;
+    border-top: 1px solid #cdcdc8;
+}
+
+.featured h2 {
+    font-size: 18px;
+    color: #666666;
+    padding-top: 22px;
+    padding-left: 9px;
+}
+
+.slide {
+    height: 202px;
+    background: url("../img/slide_bg.png") repeat-x 0 -202px;
+    position: relative;
+}
+
+.slide-left {
+    height: 202px;
+    background: url("../img/slide_bg.png") no-repeat;
+}
+
+.slide-right {
+    height: 202px;
+    background: url("../img/slide_bg.png") no-repeat right -404px;
+}
+
+.slide .prev, .slide .next {
+    position: absolute;
+    top: 50%;
+    width: 35px;
+    height: 43px;
+    margin-top: -21px;
+}
+.slide .prev{
+    background: url("../img/slide_btn.png") no-repeat;
+    left: 0;
+}
+
+.slide .next{
+    background: url("../img/slide_btn.png") no-repeat 0 -43px;
+    right: 0;
+}
+
+.slide ul{
+    width: 558px;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    margin-left: -279px;
+}
+
+.slide li{
+    float: left;
+    width: 145px;
+    margin-right: 58px;
+}
+
+.slide li:last-child{
+    margin-right: 0;
+}
+
+.slide li img{
+    border: 1px solid #c2c2c2;
+}
+
+.slide li img:hover{
+    border: 1px solid #747474;
+}
+
+.slide li p{
+    padding-top: 7px;
+    font-size: 12px;
+    color: #660000;
+    text-align: center;
+}
+
 
