@@ -264,6 +264,47 @@ body {
 #banner li {
     top: 0;
     left: 0;
+    z-index: 1;
+    opacity: 0;
+}
+
+#banner .prev-bg, #banner .next-bg {
+    position: absolute;
+    top: 0px;
+    z-index: 5;
+    width: 470px;
+    height: 300px;
+    opacity: 0;
+}
+
+#banner .prev-bg {
+    background: yellow;
+    left: 0px;
+}
+
+#banner .next-bg {
+    background: red;
+    right: 0px;
+}
+
+#banner .prev, #banner .next {
+    width: 75px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    z-index: 6;
+    margin-top: -75px;
+    display: none;
+}
+
+#banner .prev {
+    background: url("../img/prev.png") no-repeat;
+    left: 0;
+}
+
+#banner .next {
+    background: url("../img/next.png") no-repeat;
+    right: 0;
 }
 
 #banner h2 {
@@ -471,13 +512,15 @@ body {
     margin-right: 12px;
 }
 
-.sort ul input {
+.sort ul h2 {
     width: 102px;
     padding-left: 5px;
     height: 18px;
+    line-height: 18px;
     border: 1px solid #cccccc;
     font-size: 12px;
     color: #747474;
+    font-weight: normal;
 }
 
 .sort ul a {
@@ -512,7 +555,7 @@ body {
     background: #cccccc;
 }
 
-.sort .opation li:hover {
+.sort .opation li.active {
     background: #666666;
     color: #ffffff;
 }
@@ -654,22 +697,29 @@ body {
     right: 0;
 }
 
+.slide .slide-list {
+    width: 615px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 32px;
+    overflow: hidden;
+}
+
 .slide ul {
-    width: 558px;
     position: absolute;
-    top: 35px;
-    left: 50%;
-    margin-left: -279px;
+    left: 0;
 }
 
 .slide li {
     float: left;
-    width: 145px;
-    margin-right: 58px;
+    width: 205px;
 }
 
-.slide li:last-child {
-    margin-right: 0;
+.slide li a{
+    display: block;
+    width: 145px;
+    margin: 0 auto;
 }
 
 .slide li img {
@@ -738,32 +788,33 @@ body {
     margin: 0 auto;
 }
 
-.footer-nav-wrap dl{
+.footer-nav-wrap dl {
     margin-top: 33px;
     margin-right: 80px;
     float: left;
 }
-.footer-nav-wrap dl.contact{
+
+.footer-nav-wrap dl.contact {
     margin-right: 0;
 }
 
-.footer-nav-wrap dt{
+.footer-nav-wrap dt {
     font-size: 15px;
     color: #ffffff;
     font-weight: bold;
     padding-bottom: 25px;
 }
 
-.footer-nav-wrap dd{
+.footer-nav-wrap dd {
     font-size: 13px;
     color: #cfcfcf;
     line-height: 20px;
 }
 
-.footer-nav-wrap .contact .email{
+.footer-nav-wrap .contact .email {
     padding-bottom: 25px;
 }
 
-.footer-nav-wrap .email span{
+.footer-nav-wrap .email span {
     color: #ffcc00;
 }

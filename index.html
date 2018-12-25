@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Ecommerce</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
 </head>
 <body>
 <div id="top">
@@ -37,7 +38,7 @@
     </div>
     <div class="search">
         <form action="#">
-            <input type="text" value="Search website" class="text">
+            <input type="text" value="Search website" class="text" id="text1">
             <input type="submit" class="btn" value="">
         </form>
     </div>
@@ -64,10 +65,20 @@
 
             <div id="banner">
                 <ul>
-                    <li>
+                    <li style="opacity: 1">
                         <a href="#"><img src="img/banner/1.png" alt="banner"></a>
                     </li>
+                    <li>
+                        <a href="#"><img src="img/banner/2.png" alt="banner"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/banner/3.png" alt="banner"></a>
+                    </li>
                 </ul>
+                <a href="javascript:;" class="prev"></a>
+                <a href="javascript:;" class="next"></a>
+                <span class="prev-bg"></span>
+                <span class="next-bg"></span>
                 <h2>PRODUCT TITLE</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit lacus dapibus ante mattis
                     in adipiscing nibh placerat. Cras bibendum porta diam, non dignissim sapien malesuada
@@ -128,11 +139,11 @@
                 </div>
 
                 <div id="wrap">
-                    <div class="sort">
+                    <div class="sort" id="sort">
                         <h3>Sort by:</h3>
                         <ul>
                             <li>
-                                <input type="text" value="Ascending">
+                                <h2>Ascending</h2>
                                 <a href="javascript:;"></a>
                                 <ul class="opation">
                                     <li>菜单1</li>
@@ -142,7 +153,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <input type="text" value="Ascending">
+                                <h2>Ascending</h2>
                                 <a href="javascript:;"></a>
                                 <ul class="opation">
                                     <li>菜单1</li>
@@ -152,7 +163,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <input type="text" value="Ascending">
+                                <h2>Ascending</h2>
                                 <a href="javascript:;"></a>
                                 <ul class="opation">
                                     <li>菜单1</li>
@@ -259,25 +270,27 @@
                     <div class="featured">
                         <h2>FEATURED PRODUCTS</h2>
 
-                        <div class="slide">
+                        <div class="slide" id="slide">
                             <div class="slide-left">
                                 <div class="slide-right">
-                                    <ul class="clearFix">
-                                        <li>
-                                            <img src="img/slide/1.jpg" alt="">
-                                            <p>Elegant MP3 player skin PSD download</p>
-                                        </li>
+                                    <div class="slide-list">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><img src="img/slide/1.jpg" alt=""></a>
+                                                <p>Elegant MP3 player skin PSD download</p>
+                                            </li>
 
-                                        <li>
-                                            <img src="img/slide/2.jpg" alt="">
-                                            <p>Download shopping bag & icons (PSD & PNG)</p>
-                                        </li>
+                                            <li>
+                                                <a href="#"><img src="img/slide/2.jpg" alt=""></a>
+                                                <p>Download shopping bag & icons (PSD & PNG)</p>
+                                            </li>
 
-                                        <li>
-                                            <img src="img/slide/3.jpg" alt="">
-                                            <p>High resolution abstract bokeh background</p>
-                                        </li>
-                                    </ul>
+                                            <li>
+                                                <a href="#"><img src="img/slide/3.jpg" alt=""></a>
+                                                <p>High resolution abstract bokeh background</p>
+                                            </li>
+                                        </ul>
+                                    </div>
                                     <a href="javascript:;" class="prev"></a>
                                     <a href="javascript:;" class="next"></a>
                                 </div>
@@ -300,7 +313,7 @@
             </ul>
             <div class="search">
                 <form action="#">
-                    <input type="text" value="Search website" class="text">
+                    <input type="text" value="Search website" class="text" id="text2">
                     <input type="submit" class="btn" value="">
                 </form>
             </div>
@@ -354,7 +367,7 @@
                 <dd>Toll-Free: 1.234.567.8901</dd>
                 <dd>Fax: 1.234.567.8901</dd>
                 <dd class="email">Email: <span>Send us an email</span></dd>
-                <dd>MON - SAT 	9am to 7:30pm</dd>
+                <dd>MON - SAT 9am to 7:30pm</dd>
                 <dd>Sundays, holidays closed</dd>
             </dl>
 
